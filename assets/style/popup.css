@@ -1,0 +1,175 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/Roboto-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-display: auto;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/Roboto-Black.woff2") format("woff2");
+  font-weight: bold;
+  font-display: auto;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
+
+.yellow {
+  color: #ffcd6c;
+}
+
+.blue {
+  color: #047fff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+button {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 1rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+}
+
+a {
+  color: #000;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+
+.popup {
+  min-width: 345px;
+  min-height: 180px;
+
+  padding: 1rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.links {
+  margin-bottom: 7px;
+  text-align: left;
+}
+
+.line {
+  width: 95%;
+  height: 2px;
+  margin-top: 10px;
+  margin-top: 10px;
+}
+
+.button {
+  width: 4rem;
+  height: 2rem;
+  transition: 1s;
+  cursor: pointer;
+  margin-top: 20px;
+  position: relative;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  background-color: #fda3a3;
+  font-family: "Raleway", sans-serif;
+}
+
+.half {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-color: #ff6c6c;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+@keyframes transformToBlue {
+  0% {
+    background-color: #fda3a3;
+  }
+
+  100% {
+    background-color: #bffddc;
+  }
+}
+
+@keyframes transformToYellow {
+  0% {
+    background-color: #bffddc;
+  }
+
+  100% {
+    background-color: #fda3a3;
+  }
+}
+
+@keyframes moveCircleRight {
+  0% {
+    left: 0;
+    transform: translateX(0);
+    background-color: #ff0000;
+  }
+
+  100% {
+    left: 100%;
+    transform: translateX(-100%);
+    background-color: #76d4a2;
+  }
+}
+
+@keyframes moveCircleLeft {
+  0% {
+    left: 100%;
+    transform: translateX(-100%);
+    background-color: #bffddc;
+  }
+
+  100% {
+    left: 0;
+    transform: translateX(0);
+    background-color: #ff0000;
+  }
+}
+
+.eye {
+  transition: all 0.3s linear;
+}

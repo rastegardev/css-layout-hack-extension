@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "name": "Css Layout Hack",
+  "description": "you can see website layers with different colors easily, just install extensions and turn on the button!",
+  "icons": {
+    "16": "assets/img/logo.png",
+    "32": "assets/img/logo.png",
+    "48": "assets/img/logo.png",
+    "128": "assets/img/logo.png"
+  },
+  "permissions": ["scripting", "tabs", "activeTab"],
+  "action": {
+    "default_title": "Css Layout Hack",
+    "default_popup": "popup.html"
+  }
+}
