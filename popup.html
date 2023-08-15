@@ -2,28 +2,41 @@
 <html lang="en">
 
 <head>
+    <!-- Metadata for character set, viewport, and compatibility -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Css Layout Hack</title>
+    <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="./assets/style/popup.css">
 </head>
 
 <body>
+    <!-- Popup container -->
     <div class="popup">
+        <!-- Title section with colored spans -->
         <h1><span class="yellow">Css <span class="eye">👀</span> </span><span class="blue">Layout 🔦 Hack 🗂️</span>
         </h1>
+        <!-- Description text -->
         <p>you can see website layers with different colors easily, just turn on button!</p>
+        <!-- Toggle button container -->
         <div class="button">
+            <!-- On state -->
             <div class="half" style="left: 5px;">On</div>
+            <!-- Off state -->
             <div class="half" style="right: 5px; text-align: right;">Off</div>
+            <!-- Circular indicator -->
             <div class="circle"></div>
         </div>
+        <!-- Image separator -->
         <img src="../assets/img/line.png" class="line" alt="Line">
+        <!-- Footer link -->
         <p class="links">
             <a href="https://rezarastegar.ir" target="_blank">Developed with ❤️ by Reza Rastegar</a>
+            <a href="https://github.com/rastegardev/css-layout-hack-extension" target="_blank">source code </a>
         </p>
     </div>
+    <!-- JavaScript inclusion -->
     <script src="./popup.js"></script>
 </body>
 

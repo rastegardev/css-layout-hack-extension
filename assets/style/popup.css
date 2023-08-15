@@ -1,7 +1,9 @@
+/* Hide the default scrollbar in Webkit browsers */
 ::-webkit-scrollbar {
   display: none;
 }
 
+/* Define custom fonts */
 @font-face {
   font-family: "Roboto";
   src: url("../assets/fonts/Roboto-Medium.woff2") format("woff2");
@@ -19,6 +21,7 @@
   text-rendering: optimizeLegibility;
 }
 
+/* Define color classes */
 .yellow {
   color: #ffcd6c;
 }
@@ -27,10 +30,12 @@
   color: #047fff;
 }
 
+/* General body font */
 body {
   font-family: "Roboto", sans-serif;
 }
 
+/* Apply Roboto font to various elements */
 h1,
 h2,
 h3,
@@ -40,6 +45,7 @@ button {
   font-family: "Roboto", sans-serif;
 }
 
+/* Styling for the main title */
 h1 {
   font-size: 1.5rem;
   font-weight: bold;
@@ -47,6 +53,7 @@ h1 {
   margin-bottom: 0;
 }
 
+/* Styling for paragraphs */
 p {
   font-size: 1rem;
   text-align: center;
@@ -54,6 +61,7 @@ p {
   margin-bottom: 0;
 }
 
+/* Styling for links */
 a {
   color: #000;
   cursor: pointer;
@@ -64,10 +72,10 @@ a {
   background-color: #ffffff;
 }
 
+/* Styling for the popup container */
 .popup {
   min-width: 345px;
   min-height: 180px;
-
   padding: 1rem;
   border-radius: 20px;
   display: flex;
@@ -77,18 +85,28 @@ a {
   background-color: #f5f5f5;
 }
 
+/* Styling for links in the footer */
 .links {
-  margin-bottom: 7px;
+  font-size: 10px;
+  margin-top: 15px;
   text-align: left;
 }
+.links a {
+  text-align: center;
+}
+.links a:nth-child(1) {
+  margin-right: 15px;
+}
 
+/* Styling for the image separator */
 .line {
-  width: 95%;
+  width: 92%;
   height: 2px;
   margin-top: 10px;
   margin-top: 10px;
 }
 
+/* Styling for the toggle button */
 .button {
   width: 4rem;
   height: 2rem;
@@ -102,6 +120,7 @@ a {
   font-family: "Raleway", sans-serif;
 }
 
+/* Styling for the halves of the toggle button */
 .half {
   position: absolute;
   width: 50%;
@@ -110,6 +129,7 @@ a {
   pointer-events: none;
 }
 
+/* Styling for the circular indicator of the toggle button */
 .circle {
   position: absolute;
   top: 0;
@@ -122,11 +142,11 @@ a {
   transition: 0.5s;
 }
 
+/* Keyframes for transitioning background colors */
 @keyframes transformToBlue {
   0% {
     background-color: #fda3a3;
   }
-
   100% {
     background-color: #bffddc;
   }
@@ -136,19 +156,18 @@ a {
   0% {
     background-color: #bffddc;
   }
-
   100% {
     background-color: #fda3a3;
   }
 }
 
+/* Keyframes for animating the circular indicator to the right */
 @keyframes moveCircleRight {
   0% {
     left: 0;
     transform: translateX(0);
     background-color: #ff0000;
   }
-
   100% {
     left: 100%;
     transform: translateX(-100%);
@@ -156,13 +175,13 @@ a {
   }
 }
 
+/* Keyframes for animating the circular indicator to the left */
 @keyframes moveCircleLeft {
   0% {
     left: 100%;
     transform: translateX(-100%);
     background-color: #bffddc;
   }
-
   100% {
     left: 0;
     transform: translateX(0);
@@ -170,6 +189,7 @@ a {
   }
 }
 
+/* Animation for the eye emoji */
 .eye {
   transition: all 0.3s linear;
 }
