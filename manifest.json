@@ -9,7 +9,7 @@
     "48": "assets/img/logo.png",
     "128": "assets/img/logo.png"
   },
-  "permissions": ["scripting", "activeTab"],
+  "permissions": ["scripting", "activeTab", "storage"],
   "action": {
     "default_title": "Css Layout Hack",
     "default_popup": "popup.html"
