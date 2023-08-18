@@ -18,7 +18,7 @@ const updateUI = (buttonOn) => {
 // Function to retrieve and update button state from local storage
 const updateButtonStateFromLocalStorage = () => {
   chrome.storage.local.get(["buttonOn"], (result) => {
-    const buttonOn = result.buttonOn || false; // Default to false if not set
+    const buttonOn = result.buttonOn && false;
     updateUI(buttonOn);
     if (buttonOn) {
       callWhiteOut();
@@ -75,15 +75,3 @@ document.querySelector(".button").addEventListener("click", () => {
 
 // Update the UI based on the button state when the content script is loaded
 updateButtonStateFromLocalStorage();
-
-// Listen for changes in local storage and update UI accordingly
-chrome.storage.onChanged.addListener((changes, namespace) => {
-  if (namespace === "local" && "buttonOn" in changes) {
-    updateUI(changes.buttonOn.newValue);
-    if (changes.buttonOn.newValue) {
-      callWhiteOut();
-    } else {
-      removeScript();
-    }
-  }
-});
