@@ -9,6 +9,9 @@
     "48": "assets/img/logo.png",
     "128": "assets/img/logo.png"
   },
+  "background": {
+    "service_worker": "background.js"
+  },
   "permissions": ["scripting", "activeTab", "storage"],
   "action": {
     "default_title": "Css Layout Hack",
