@@ -21,15 +21,15 @@ const updateButtonStateFromLocalStorage = () => {
     const buttonOn = result.buttonOn && false;
     updateUI(buttonOn);
     if (buttonOn) {
-      callWhiteOut();
+      callAddStyle();
     } else {
       removeScript();
     }
   });
 };
 
-// Function to callWhiteOut based on the button state
-const callWhiteOut = () => {
+// Function to callAddStyle based on the button state
+const callAddStyle = () => {
   getCurrentTab().then((tab) => {
     const { id, url } = tab;
     chrome.scripting.executeScript({
@@ -65,7 +65,7 @@ document.querySelector(".button").addEventListener("click", () => {
     chrome.storage.local.set({ buttonOn: newButtonState }, () => {
       updateUI(newButtonState);
       if (newButtonState) {
-        callWhiteOut();
+        callAddStyle();
       } else {
         removeScript();
       }
