@@ -2,7 +2,8 @@
   "version": "2.0.0",
   "manifest_version": 3,
   "name": "Css Layout Hack",
-  "description": "you can see website layers with different colors easily, just install extensions and turn on the button!",
+  "author": "reza rastegar",
+  "description": "Feature: extension installation event (change url)",
   "icons": {
     "16": "assets/img/logo.png",
     "32": "assets/img/logo.png",
