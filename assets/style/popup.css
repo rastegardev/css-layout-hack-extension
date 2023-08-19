@@ -61,21 +61,10 @@ p {
   margin-bottom: 0;
 }
 
-/* Styling for links */
-a {
-  color: #000;
-  cursor: pointer;
-  padding: 5px 10px;
-  font-size: 12px;
-  border-radius: 20px;
-  text-decoration: none;
-  background-color: #ffffff;
-}
-
 /* Styling for the popup container */
 .popup {
   min-width: 345px;
-  min-height: 180px;
+  min-height: 220px;
   padding: 1rem;
   border-radius: 20px;
   display: flex;
@@ -83,6 +72,15 @@ a {
   flex-direction: column;
   justify-content: center;
   background-color: #f5f5f5;
+  position: relative;
+}
+
+.arrow {
+  width: 40px;
+  transform: rotate(-55deg);
+  position: absolute;
+  top: 50px;
+  left: 30px;
 }
 
 /* Styling for links in the footer */
@@ -93,9 +91,21 @@ a {
 }
 .links a {
   text-align: center;
+  color: #000;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: #ffffff;
 }
 .links a:nth-child(1) {
   margin-right: 15px;
+}
+
+.issue {
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 /* Styling for the image separator */
