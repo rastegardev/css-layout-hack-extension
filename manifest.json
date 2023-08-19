@@ -3,7 +3,7 @@
   "manifest_version": 3,
   "name": "Css Layout Hack",
   "author": "reza rastegar",
-  "description": "Feature: extension installation event (change url)",
+  "description": "You can see website layers with different colors easily",
   "icons": {
     "16": "assets/img/logo.png",
     "32": "assets/img/logo.png",
