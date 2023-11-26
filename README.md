@@ -4,10 +4,6 @@
 Css Layout Hack
 ==============================
 
-## ⚠️ | Attention
-This extension is developed based on [Victor Castro](https://github.com/vcastroi) code in the link below:
-https://gist.github.com/vcastroi/e0d296171842e74ad7d4eef7daf15df6
-
 ## 📽️ | Video
 https://github.com/rastegardev/css-layout-hack-extension/assets/85369490/26fd1763-58f3-4804-83da-ad5b16e3a6f7
 
@@ -72,21 +68,6 @@ Thank you for choosing Css Layout Hack!❤️
 <a href="mailto:business.rezarastegar@gmail.com">
     <p>business.rezarastegar@gmail.com</p>
 </a>
-
-هک طرح Css
-==============================
-
-## ⚠️ | توجه
-این افزونه بر اساس کد [ویکتور کاسترو](https://github.com/vcastroi) در لینک زیر توسعه یافته است:
-https://gist.github.com/vcastroi/e0d296171842e74ad7d4eef7daf15df6
-
-## 📽️ | ویدئو
-https://github.com/rastegardev/css-layout-hack-extension/assets/85369490/26fd1763-58f3-4804-83da-ad5b16e3a6f7
-
-## 📱 | عکس
-![css-layout-hack-photo-1](https://github.com/rastegardev/css-layout-hack-extension/assets/85369490/0a8cf4bb-b3c1-4b0a-bcdd-13daf89f46f1)
-![css-layout-hack-photo-2](https://github.com/rastegardev/css-layout-hack-extension/assets/85369490/794d579b-c53d-497a-ba65-a838829c8d2e)
-![css-layout-hack-photo-3](https://github.com/rastegardev/css-layout-hack-extension/assets/85369490/66c5c2ac-4196-4f20-aa91-e93a9e82d263)
 
 ## 🗂️ | توضیحات
 هک طرح Css یک افزونه قدرتمند کروم است که برای طراحان رابط کاربری (UI) و برنامه‌نویسان فرانت-اند سفارشی‌سازی شده است. با هدف یکتا، این افزونه نمایش تصویری از لایه‌های وبسایت را با اختصاص رنگ‌های مختلف به هر لایه فراهم می‌کند. با ارائه نگاهی واضح و منظم به عناصر، هک طرح Css فرآیند طراحی و توسعه را ساده‌تر کرده و کارآیی و دقت را افزایش می‌دهد.
