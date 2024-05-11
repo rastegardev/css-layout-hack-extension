@@ -62,11 +62,11 @@ We appreciate your trust in using Css Layout Hack and want to assure you that yo
 Thank you for choosing Css Layout Hack!❤️
 
 ## 📞 | Contact me
-<a href="https://rezarastegar.ir">
-    <p>www.rezarastegar.ir</p>
+<a href="https://rastegar.info">
+    <p>www.rastegar.info</p>
 </a>
-<a href="mailto:business.rezarastegar@gmail.com">
-    <p>business.rezarastegar@gmail.com</p>
+<a href="mailto:support@rastegar.info">
+    <p>support@rastegar.info</p>
 </a>
 
 ## 🗂️ | توضیحات
@@ -114,4 +114,4 @@ Thank you for choosing Css Layout Hack!❤️
 
 7. تماس با ما
 
-اگر هرگونه سوال، نگرانی یا بازخوردی درباره این سیاست حفظ حریم خصوصی یا افزونه کروم هک طرح Css دارید، لطفاً با ما با آدرس ایمیل business.rezarastegar@gmail.com تماس بگیرید. حریم خصوصی شما برای ما اهمیت دارد و ما به پاسخگویی به سوالات شما متعهد هستیم.
+اگر هرگونه سوال، نگرانی یا بازخوردی درباره این سیاست حفظ حریم خصوصی یا افزونه کروم هک طرح Css دارید، لطفاً با ما با آدرس ایمیل support@rastegar.info تماس بگیرید. حریم خصوصی شما برای ما اهمیت دارد و ما به پاسخگویی به سوالات شما متعهد هستیم.
